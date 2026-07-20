@@ -1,14 +1,9 @@
-github_users:
-  - torvalds
-  - alshedivat
+github_users: []
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - Mobile-Programming-HWs/HW1
+  - Mobile-Programming-HWs/HW2
+  - Mobile-Programming-HWs/Project
+  - Mobile-Programming-HWs/Swift

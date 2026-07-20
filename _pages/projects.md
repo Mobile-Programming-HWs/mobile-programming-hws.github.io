@@ -2,11 +2,11 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: Mobile programming coursework apps with screenshots and notes.
 nav: true
-nav_order: 3
-display_categories: [work, fun]
-horizontal: false
+nav_order: 1
+display_categories: [android, swift]
+horizontal: true
 ---
 
 <!-- pages/projects.md -->
