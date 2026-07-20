@@ -7,7 +7,7 @@ importance: 1
 category: android
 ---
 
-[Source repo](https://github.com/Mobile-Programming-HWs/HW1){:target="_blank"} | [README](https://github.com/Mobile-Programming-HWs/HW1#readme){:target="_blank"}
+[Source repo](https://github.com/Mobile-Programming-HWs/HW1){:target="\_blank"} | [README](https://github.com/Mobile-Programming-HWs/HW1#readme){:target="\_blank"}
 
 Terminator is an Android app for browsing course data and building a weekly class plan. It keeps the data local, lets the user search courses, and checks the selected plan for duplicate courses, class conflicts, and exam conflicts.
 

@@ -7,7 +7,7 @@ importance: 3
 category: android
 ---
 
-[Source repo](https://github.com/Mobile-Programming-HWs/Project){:target="_blank"} | [README](https://github.com/Mobile-Programming-HWs/Project#readme){:target="_blank"}
+[Source repo](https://github.com/Mobile-Programming-HWs/Project){:target="\_blank"} | [README](https://github.com/Mobile-Programming-HWs/Project#readme){:target="\_blank"}
 
 MicroMaster is the final Android project. It manages course creation, enrollments, homework links, profile data, and role-based actions for teachers, TAs, and students.
 

@@ -7,7 +7,7 @@ importance: 4
 category: swift
 ---
 
-[Source repo](https://github.com/Mobile-Programming-HWs/Swift){:target="_blank"} | [README](https://github.com/Mobile-Programming-HWs/Swift#readme){:target="_blank"}
+[Source repo](https://github.com/Mobile-Programming-HWs/Swift){:target="\_blank"} | [README](https://github.com/Mobile-Programming-HWs/Swift#readme){:target="\_blank"}
 
 Crypto Tracker is a Swift cryptocurrency tracker with a terminal app, reusable core package, tests, and a SwiftUI playground. It uses local sample data and deterministic price history, so it does not need an API key or network access.
 

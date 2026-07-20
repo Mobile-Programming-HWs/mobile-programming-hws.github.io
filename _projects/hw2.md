@@ -7,7 +7,7 @@ importance: 2
 category: android
 ---
 
-[Source repo](https://github.com/Mobile-Programming-HWs/HW2){:target="_blank"} | [README](https://github.com/Mobile-Programming-HWs/HW2#readme){:target="_blank"}
+[Source repo](https://github.com/Mobile-Programming-HWs/HW2){:target="\_blank"} | [README](https://github.com/Mobile-Programming-HWs/HW2#readme){:target="\_blank"}
 
 Quiz of Kings is an Android trivia game with local login, settings, saved scores, and a scoreboard. It uses Open Trivia DB for live questions and keeps a cached fallback game for offline or failed request cases.
 
