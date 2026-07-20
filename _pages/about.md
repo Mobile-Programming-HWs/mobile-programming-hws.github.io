@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Home
+title: Mobile Programming HWs
 permalink: /
 nav: false
 
@@ -11,37 +11,79 @@ latest_posts:
   enabled: false
 ---
 
-# Mobile Programming HWs
+{% include project_styles.liquid %}
 
-This site collects the mobile programming coursework projects in one place. Each project page shows what the app does, the main implementation work, screenshots, setup notes, and links to the source repo.
-
-## Projects
-
-- [Terminator]({{ '/projects/hw1/' | relative_url }}), Android course browser and weekly schedule planner.
-- [Quiz of Kings]({{ '/projects/hw2/' | relative_url }}), Android trivia game with local users and scores.
-- [MicroMaster]({{ '/projects/project/' | relative_url }}), Android course and homework management app.
-- [Crypto Tracker]({{ '/projects/swift/' | relative_url }}), Swift cryptocurrency tracker with terminal and SwiftUI flows.
-
-<div class="row">
-  <div class="col-sm mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/projects/hw1/course-list.png" title="Terminator course list" class="img-fluid rounded z-depth-1" %}
+<div class="project-hub-lead">
+  <div>
+    <p class="project-hub-intro">This site is the public index for my mobile programming coursework. It keeps the finished apps, screenshots, build notes, and source links in one place.</p>
+    <div class="project-hub-stats">
+      <div class="project-hub-stat">
+        <strong>4</strong>
+        project repos
+      </div>
+      <div class="project-hub-stat">
+        <strong>3</strong>
+        Android apps
+      </div>
+      <div class="project-hub-stat">
+        <strong>1</strong>
+        Swift app
+      </div>
+    </div>
   </div>
-  <div class="col-sm mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/projects/hw2/question.png" title="Quiz of Kings question screen" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/projects/project/courses.png" title="MicroMaster courses screen" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-<div class="caption">Screenshots from the Android projects.</div>
-
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/projects/swift/swiftui-preview.svg" title="Crypto Tracker SwiftUI preview" class="img-fluid rounded z-depth-1" %}
+  <div class="project-hub-preview" aria-label="Project screenshots">
+    <img src="{{ '/assets/img/projects/hw1/course-list.png' | relative_url }}" alt="Terminator course list" loading="eager">
+    <img src="{{ '/assets/img/projects/hw2/question.png' | relative_url }}" alt="Quiz of Kings question screen" loading="eager">
+    <img src="{{ '/assets/img/projects/project/course-detail.png' | relative_url }}" alt="MicroMaster course detail" loading="eager">
+    <img src="{{ '/assets/img/projects/swift/swiftui-preview.svg' | relative_url }}" alt="Crypto Tracker SwiftUI preview" loading="eager">
   </div>
 </div>
-<div class="caption">SwiftUI preview from the Swift project.</div>
 
-## Source
+## Project Notes
+
+<div class="project-hub-grid">
+  <article class="project-hub-card accent-sky">
+    <span class="project-hub-type">Android</span>
+    <h2><a href="{{ '/projects/hw1/' | relative_url }}">Terminator</a></h2>
+    <p>Course browser and weekly schedule planner.</p>
+    <ul>
+      <li>Course search and grouping</li>
+      <li>Weekly chart view</li>
+      <li>Conflict checks before saving</li>
+    </ul>
+  </article>
+  <article class="project-hub-card accent-green">
+    <span class="project-hub-type">Android</span>
+    <h2><a href="{{ '/projects/hw2/' | relative_url }}">Quiz of Kings</a></h2>
+    <p>Trivia game with local users, settings, and scores.</p>
+    <ul>
+      <li>Room backed score history</li>
+      <li>Live questions with fallback data</li>
+      <li>Profile and scoreboard screens</li>
+    </ul>
+  </article>
+  <article class="project-hub-card accent-red">
+    <span class="project-hub-type">Android</span>
+    <h2><a href="{{ '/projects/project/' | relative_url }}">MicroMaster</a></h2>
+    <p>Course and homework management app.</p>
+    <ul>
+      <li>Teacher, TA, and student flows</li>
+      <li>Course enrollment records</li>
+      <li>Homework links and downloads</li>
+    </ul>
+  </article>
+  <article class="project-hub-card accent-gold">
+    <span class="project-hub-type">Swift</span>
+    <h2><a href="{{ '/projects/swift/' | relative_url }}">Crypto Tracker</a></h2>
+    <p>Cryptocurrency tracker with terminal and SwiftUI flows.</p>
+    <ul>
+      <li>Local sample market data</li>
+      <li>Date range price history</li>
+      <li>CSV output and tests</li>
+    </ul>
+  </article>
+</div>
+
+## Source Repos
 
 The source repos live in [Mobile-Programming-HWs](https://github.com/Mobile-Programming-HWs).

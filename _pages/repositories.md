@@ -1,47 +1,51 @@
 ---
 layout: page
 permalink: /repositories/
-title: repositories
+title: Repositories
 description: Source repositories for the coursework projects.
 nav: true
 nav_order: 2
 ---
 
-{% if site.data.repositories.github_users %}
+{% include project_styles.liquid %}
 
-## GitHub users
+These links go straight to the source repos and READMEs.
 
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% for user in site.data.repositories.github_users %}
-    {% include repository/repo_user.liquid username=user %}
-  {% endfor %}
+<div class="repo-link-grid">
+  <article class="repo-link-card accent-sky">
+    <span class="project-page-type">Android</span>
+    <h2>HW1</h2>
+    <p>Source repo for Terminator, the course browser and weekly schedule planner.</p>
+    <div class="project-link-row">
+      <a href="https://github.com/Mobile-Programming-HWs/HW1" target="_blank">Open repo</a>
+      <a href="https://github.com/Mobile-Programming-HWs/HW1#readme" target="_blank">README</a>
+    </div>
+  </article>
+  <article class="repo-link-card accent-green">
+    <span class="project-page-type">Android</span>
+    <h2>HW2</h2>
+    <p>Source repo for Quiz of Kings, the trivia game with users, settings, and scores.</p>
+    <div class="project-link-row">
+      <a href="https://github.com/Mobile-Programming-HWs/HW2" target="_blank">Open repo</a>
+      <a href="https://github.com/Mobile-Programming-HWs/HW2#readme" target="_blank">README</a>
+    </div>
+  </article>
+  <article class="repo-link-card accent-red">
+    <span class="project-page-type">Android</span>
+    <h2>Project</h2>
+    <p>Source repo for MicroMaster, the course and homework management app.</p>
+    <div class="project-link-row">
+      <a href="https://github.com/Mobile-Programming-HWs/Project" target="_blank">Open repo</a>
+      <a href="https://github.com/Mobile-Programming-HWs/Project#readme" target="_blank">README</a>
+    </div>
+  </article>
+  <article class="repo-link-card accent-gold">
+    <span class="project-page-type">Swift</span>
+    <h2>Swift</h2>
+    <p>Source repo for Crypto Tracker, the cryptocurrency tracker with terminal and SwiftUI flows.</p>
+    <div class="project-link-row">
+      <a href="https://github.com/Mobile-Programming-HWs/Swift" target="_blank">Open repo</a>
+      <a href="https://github.com/Mobile-Programming-HWs/Swift#readme" target="_blank">README</a>
+    </div>
+  </article>
 </div>
-
----
-
-{% if site.repo_trophies.enabled %}
-{% for user in site.data.repositories.github_users %}
-{% if site.data.repositories.github_users.size > 1 %}
-
-  <h4>{{ user }}</h4>
-  {% endif %}
-  <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% include repository/repo_trophies.liquid username=user %}
-  </div>
-
----
-
-{% endfor %}
-{% endif %}
-{% endif %}
-
-{% if site.data.repositories.github_repos %}
-
-## Source Repositories
-
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% for repo in site.data.repositories.github_repos %}
-    {% include repository/repo.liquid repository=repo %}
-  {% endfor %}
-</div>
-{% endif %}

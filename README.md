@@ -11,6 +11,7 @@ I use it as a project hub for the coursework apps. The site links to each repo, 
 - Source repo list: `_pages/repositories.md`
 - Project pages: `_projects`
 - Screenshots: `assets/img/projects`
+- Shared page styles: `_includes/project_styles.liquid`
 
 ## Run Locally
 

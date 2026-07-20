@@ -4,7 +4,7 @@ title: Quiz of Kings
 description: Android trivia game with local users and scores
 img: assets/img/projects/hw2/game.png
 importance: 2
-category: android
+category: Android
 ---
 
 [Source repo](https://github.com/Mobile-Programming-HWs/HW2){:target="\_blank"} | [README](https://github.com/Mobile-Programming-HWs/HW2#readme){:target="\_blank"}

@@ -4,7 +4,7 @@ title: MicroMaster
 description: Android course and homework management app
 img: assets/img/projects/project/courses.png
 importance: 3
-category: android
+category: Android
 ---
 
 [Source repo](https://github.com/Mobile-Programming-HWs/Project){:target="\_blank"} | [README](https://github.com/Mobile-Programming-HWs/Project#readme){:target="\_blank"}

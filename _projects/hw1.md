@@ -4,7 +4,7 @@ title: Terminator
 description: Android course browser and weekly schedule planner
 img: assets/img/projects/hw1/course-list.png
 importance: 1
-category: android
+category: Android
 ---
 
 [Source repo](https://github.com/Mobile-Programming-HWs/HW1){:target="\_blank"} | [README](https://github.com/Mobile-Programming-HWs/HW1#readme){:target="\_blank"}

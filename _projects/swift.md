@@ -4,7 +4,7 @@ title: Crypto Tracker
 description: Swift cryptocurrency tracker with terminal and SwiftUI flows
 img: assets/img/projects/swift/swiftui-preview.svg
 importance: 4
-category: swift
+category: Swift
 ---
 
 [Source repo](https://github.com/Mobile-Programming-HWs/Swift){:target="\_blank"} | [README](https://github.com/Mobile-Programming-HWs/Swift#readme){:target="\_blank"}
