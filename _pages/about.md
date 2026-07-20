@@ -19,16 +19,16 @@ latest_posts:
     <p class="project-hub-intro">This site is the public index for my mobile programming coursework. It keeps the finished apps, screenshots, build notes, and source links in one place.</p>
     <div class="project-hub-stats">
       <div class="project-hub-stat">
+        <strong>6</strong>
+        public repos
+      </div>
+      <div class="project-hub-stat">
         <strong>4</strong>
-        project repos
+        app projects
       </div>
       <div class="project-hub-stat">
-        <strong>3</strong>
-        Android apps
-      </div>
-      <div class="project-hub-stat">
-        <strong>1</strong>
-        Swift app
+        <strong>2</strong>
+        support repos
       </div>
     </div>
     <div class="project-action-row">
@@ -91,4 +91,4 @@ latest_posts:
 
 ## Source Repos
 
-The source repos live in [Mobile-Programming-HWs](https://github.com/Mobile-Programming-HWs).
+The source repos live in [Mobile-Programming-HWs](https://github.com/Mobile-Programming-HWs). The organization includes the app projects, this project site, and the public profile repo.
