@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="660" viewBox="0 0 920 660">
+  <rect width="920" height="660" rx="18" fill="#111827"/>
+  <rect x="28" y="28" width="864" height="604" rx="12" fill="#1f2937" stroke="#374151"/>
+  <text x="60" y="82" fill="#f9fafb" font-family="Consolas, Menlo, monospace" font-size="28" font-weight="700">Bitcoin (BTC)</text>
+  <text x="60" y="128" fill="#a7f3d0" font-family="Consolas, Menlo, monospace" font-size="22">Current price: $43120.50</text>
+  <text x="60" y="188" fill="#f9fafb" font-family="Consolas, Menlo, monospace" font-size="20">Start date, YYYY-MM-DD:</text>
+  <text x="360" y="188" fill="#fbbf24" font-family="Consolas, Menlo, monospace" font-size="20">2022-06-01</text>
+  <text x="60" y="226" fill="#f9fafb" font-family="Consolas, Menlo, monospace" font-size="20">End date, YYYY-MM-DD:</text>
+  <text x="338" y="226" fill="#fbbf24" font-family="Consolas, Menlo, monospace" font-size="20">2022-06-03</text>
+  <text x="60" y="292" fill="#f9fafb" font-family="Consolas, Menlo, monospace" font-size="24" font-weight="700">Price history</text>
+  <text x="60" y="342" fill="#d1d5db" font-family="Consolas, Menlo, monospace" font-size="21">2022-06-01: $41994.23</text>
+  <text x="60" y="382" fill="#d1d5db" font-family="Consolas, Menlo, monospace" font-size="21">2022-06-02: $42350.21</text>
+  <text x="60" y="422" fill="#d1d5db" font-family="Consolas, Menlo, monospace" font-size="21">2022-06-03: $42755.60</text>
+  <text x="430" y="342" fill="#f9fafb" font-family="Consolas, Menlo, monospace" font-size="24" font-weight="700">Range summary</text>
+  <text x="430" y="382" fill="#d1d5db" font-family="Consolas, Menlo, monospace" font-size="19">Low: $41994.23</text>
+  <text x="430" y="418" fill="#d1d5db" font-family="Consolas, Menlo, monospace" font-size="19">High: $42755.60</text>
+  <text x="430" y="454" fill="#d1d5db" font-family="Consolas, Menlo, monospace" font-size="19">Average: $42366.68</text>
+  <text x="430" y="490" fill="#a7f3d0" font-family="Consolas, Menlo, monospace" font-size="19">Change: +$761.37</text>
+  <text x="60" y="548" fill="#f9fafb" font-family="Consolas, Menlo, monospace" font-size="19">Type csv to print this range as CSV:</text>
+  <text x="60" y="586" fill="#93c5fd" font-family="Consolas, Menlo, monospace" font-size="18">date,symbol,name,price</text>
+  <text x="60" y="618" fill="#93c5fd" font-family="Consolas, Menlo, monospace" font-size="18">2022-06-01,BTC,Bitcoin,41994.23</text>
+</svg>
