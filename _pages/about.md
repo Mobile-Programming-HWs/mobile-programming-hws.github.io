@@ -14,7 +14,8 @@ latest_posts:
 {% include project_styles.liquid %}
 
 <div class="project-hub-lead">
-  <div>
+  <div class="project-hub-copy">
+    <span class="project-hub-kicker">Android and Swift coursework</span>
     <p class="project-hub-intro">This site is the public index for my mobile programming coursework. It keeps the finished apps, screenshots, build notes, and source links in one place.</p>
     <div class="project-hub-stats">
       <div class="project-hub-stat">
@@ -29,6 +30,10 @@ latest_posts:
         <strong>1</strong>
         Swift app
       </div>
+    </div>
+    <div class="project-action-row">
+      <a class="project-action project-action-primary" href="{{ '/projects/' | relative_url }}">View projects</a>
+      <a class="project-action" href="{{ '/repositories/' | relative_url }}">Open repos</a>
     </div>
   </div>
   <div class="project-hub-preview" aria-label="Project screenshots">

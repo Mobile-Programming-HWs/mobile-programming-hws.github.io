@@ -75,7 +75,7 @@ Each project page includes screenshots, build notes, source links, and the main 
 
 ## Swift
 
-<div class="project-page-grid">
+<div class="project-page-grid project-page-grid-narrow">
   <article class="project-page-card accent-gold">
     <a class="project-page-image" href="{{ '/projects/swift/' | relative_url }}">
       <img src="{{ '/assets/img/projects/swift/swiftui-preview.svg' | relative_url }}" alt="Crypto Tracker SwiftUI preview">
