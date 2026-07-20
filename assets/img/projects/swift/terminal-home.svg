@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="560" viewBox="0 0 920 560">
+  <rect width="920" height="560" rx="18" fill="#101820"/>
+  <rect x="28" y="28" width="864" height="504" rx="12" fill="#16242f" stroke="#2a4050"/>
+  <text x="60" y="80" fill="#d8e6ed" font-family="Consolas, Menlo, monospace" font-size="28" font-weight="700">Crypto Tracker</text>
+  <text x="60" y="132" fill="#94d2bd" font-family="Consolas, Menlo, monospace" font-size="22">1. Cryptocurrencies</text>
+  <text x="60" y="168" fill="#94d2bd" font-family="Consolas, Menlo, monospace" font-size="22">2. Profile</text>
+  <text x="60" y="204" fill="#94d2bd" font-family="Consolas, Menlo, monospace" font-size="22">3. Exit</text>
+  <text x="60" y="252" fill="#e9d8a6" font-family="Consolas, Menlo, monospace" font-size="20">Type help for commands.</text>
+  <text x="60" y="306" fill="#d8e6ed" font-family="Consolas, Menlo, monospace" font-size="21">Choose an option:</text>
+  <text x="290" y="306" fill="#ee9b00" font-family="Consolas, Menlo, monospace" font-size="21">1</text>
+  <text x="60" y="370" fill="#d8e6ed" font-family="Consolas, Menlo, monospace" font-size="26" font-weight="700">Cryptocurrencies</text>
+  <text x="60" y="414" fill="#d8e6ed" font-family="Consolas, Menlo, monospace" font-size="20">1. Bitcoin (BTC): $43120.50</text>
+  <text x="60" y="448" fill="#d8e6ed" font-family="Consolas, Menlo, monospace" font-size="20">2. Ethereum (ETH): $2280.75</text>
+  <text x="60" y="482" fill="#d8e6ed" font-family="Consolas, Menlo, monospace" font-size="20">3. Solana (SOL): $98.20</text>
+</svg>
